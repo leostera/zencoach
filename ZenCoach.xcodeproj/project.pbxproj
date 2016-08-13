@@ -78,7 +78,9 @@
 				1327EC251D5F2CFF004573D2 /* ZenCoachUITests */,
 				1327EC091D5F2CFF004573D2 /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		1327EC091D5F2CFF004573D2 /* Products */ = {
 			isa = PBXGroup;
@@ -425,6 +427,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = ZenCoachTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = ostera.com.ZenCoachTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZenCoach.app/Contents/MacOS/ZenCoach";
@@ -437,6 +440,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = ZenCoachUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = ostera.com.ZenCoachUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = ZenCoach;
@@ -449,6 +453,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = ZenCoachUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = ostera.com.ZenCoachUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = ZenCoach;
@@ -474,6 +479,7 @@
 				1327EC2D1D5F2CFF004573D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1327EC2E1D5F2CFF004573D2 /* Build configuration list for PBXNativeTarget "ZenCoachTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +488,7 @@
 				1327EC301D5F2CFF004573D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1327EC311D5F2CFF004573D2 /* Build configuration list for PBXNativeTarget "ZenCoachUITests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +497,7 @@
 				1327EC331D5F2CFF004573D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
