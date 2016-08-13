@@ -52,7 +52,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
   }
   
   func track(user: String, data: NSObject) {
-    print(user, data)
+    let url = NSURL(string: "http://zencoach.ostera.io/\(user)/\(data)")!
+    let task = NSURLSession.sharedSession().dataTaskWithURL(url) { _,_,_ in }
+    task.resume()
   }
   
   
