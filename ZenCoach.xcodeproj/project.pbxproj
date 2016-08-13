@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1327EC0C1D5F2CFF004573D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1327EC0B1D5F2CFF004573D2 /* AppDelegate.swift */; };
+		1327EC0E1D5F2CFF004573D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1327EC0D1D5F2CFF004573D2 /* Assets.xcassets */; };
+		1327EC111D5F2CFF004573D2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1327EC0F1D5F2CFF004573D2 /* MainMenu.xib */; };
+		1327EC1C1D5F2CFF004573D2 /* ZenCoachTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1327EC1B1D5F2CFF004573D2 /* ZenCoachTests.swift */; };
+		1327EC271D5F2CFF004573D2 /* ZenCoachUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1327EC261D5F2CFF004573D2 /* ZenCoachUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1327EC181D5F2CFF004573D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1327EC001D5F2CFF004573D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1327EC071D5F2CFF004573D2;
+			remoteInfo = ZenCoach;
+		};
+		1327EC231D5F2CFF004573D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1327EC001D5F2CFF004573D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1327EC071D5F2CFF004573D2;
+			remoteInfo = ZenCoach;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1327EC081D5F2CFF004573D2 /* ZenCoach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZenCoach.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1327EC0B1D5F2CFF004573D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1327EC0D1D5F2CFF004573D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1327EC101D5F2CFF004573D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1327EC121D5F2CFF004573D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1327EC171D5F2CFF004573D2 /* ZenCoachTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZenCoachTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1327EC1B1D5F2CFF004573D2 /* ZenCoachTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZenCoachTests.swift; sourceTree = "<group>"; };
+		1327EC1D1D5F2CFF004573D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1327EC221D5F2CFF004573D2 /* ZenCoachUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZenCoachUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1327EC261D5F2CFF004573D2 /* ZenCoachUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZenCoachUITests.swift; sourceTree = "<group>"; };
+		1327EC281D5F2CFF004573D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1327EC051D5F2CFF004573D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1327EC141D5F2CFF004573D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1327EC1F1D5F2CFF004573D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1327EBFF1D5F2CFF004573D2 = {
+			isa = PBXGroup;
+			children = (
+				1327EC0A1D5F2CFF004573D2 /* ZenCoach */,
+				1327EC1A1D5F2CFF004573D2 /* ZenCoachTests */,
+				1327EC251D5F2CFF004573D2 /* ZenCoachUITests */,
+				1327EC091D5F2CFF004573D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1327EC091D5F2CFF004573D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1327EC081D5F2CFF004573D2 /* ZenCoach.app */,
+				1327EC171D5F2CFF004573D2 /* ZenCoachTests.xctest */,
+				1327EC221D5F2CFF004573D2 /* ZenCoachUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1327EC0A1D5F2CFF004573D2 /* ZenCoach */ = {
+			isa = PBXGroup;
+			children = (
+				1327EC0B1D5F2CFF004573D2 /* AppDelegate.swift */,
+				1327EC0D1D5F2CFF004573D2 /* Assets.xcassets */,
+				1327EC0F1D5F2CFF004573D2 /* MainMenu.xib */,
+				1327EC121D5F2CFF004573D2 /* Info.plist */,
+			);
+			path = ZenCoach;
+			sourceTree = "<group>";
+		};
+		1327EC1A1D5F2CFF004573D2 /* ZenCoachTests */ = {
+			isa = PBXGroup;
+			children = (
+				1327EC1B1D5F2CFF004573D2 /* ZenCoachTests.swift */,
+				1327EC1D1D5F2CFF004573D2 /* Info.plist */,
+			);
+			path = ZenCoachTests;
+			sourceTree = "<group>";
+		};
+		1327EC251D5F2CFF004573D2 /* ZenCoachUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1327EC261D5F2CFF004573D2 /* ZenCoachUITests.swift */,
+				1327EC281D5F2CFF004573D2 /* Info.plist */,
+			);
+			path = ZenCoachUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1327EC071D5F2CFF004573D2 /* ZenCoach */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1327EC2B1D5F2CFF004573D2 /* Build configuration list for PBXNativeTarget "ZenCoach" */;
+			buildPhases = (
+				1327EC041D5F2CFF004573D2 /* Sources */,
+				1327EC051D5F2CFF004573D2 /* Frameworks */,
+				1327EC061D5F2CFF004573D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZenCoach;
+			productName = ZenCoach;
+			productReference = 1327EC081D5F2CFF004573D2 /* ZenCoach.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1327EC161D5F2CFF004573D2 /* ZenCoachTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1327EC2E1D5F2CFF004573D2 /* Build configuration list for PBXNativeTarget "ZenCoachTests" */;
+			buildPhases = (
+				1327EC131D5F2CFF004573D2 /* Sources */,
+				1327EC141D5F2CFF004573D2 /* Frameworks */,
+				1327EC151D5F2CFF004573D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1327EC191D5F2CFF004573D2 /* PBXTargetDependency */,
+			);
+			name = ZenCoachTests;
+			productName = ZenCoachTests;
+			productReference = 1327EC171D5F2CFF004573D2 /* ZenCoachTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1327EC211D5F2CFF004573D2 /* ZenCoachUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1327EC311D5F2CFF004573D2 /* Build configuration list for PBXNativeTarget "ZenCoachUITests" */;
+			buildPhases = (
+				1327EC1E1D5F2CFF004573D2 /* Sources */,
+				1327EC1F1D5F2CFF004573D2 /* Frameworks */,
+				1327EC201D5F2CFF004573D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1327EC241D5F2CFF004573D2 /* PBXTargetDependency */,
+			);
+			name = ZenCoachUITests;
+			productName = ZenCoachUITests;
+			productReference = 1327EC221D5F2CFF004573D2 /* ZenCoachUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1327EC001D5F2CFF004573D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ostera.com;
+				TargetAttributes = {
+					1327EC071D5F2CFF004573D2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					1327EC161D5F2CFF004573D2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1327EC071D5F2CFF004573D2;
+					};
+					1327EC211D5F2CFF004573D2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1327EC071D5F2CFF004573D2;
+					};
+				};
+			};
+			buildConfigurationList = 1327EC031D5F2CFF004573D2 /* Build configuration list for PBXProject "ZenCoach" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1327EBFF1D5F2CFF004573D2;
+			productRefGroup = 1327EC091D5F2CFF004573D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1327EC071D5F2CFF004573D2 /* ZenCoach */,
+				1327EC161D5F2CFF004573D2 /* ZenCoachTests */,
+				1327EC211D5F2CFF004573D2 /* ZenCoachUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1327EC061D5F2CFF004573D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1327EC0E1D5F2CFF004573D2 /* Assets.xcassets in Resources */,
+				1327EC111D5F2CFF004573D2 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1327EC151D5F2CFF004573D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1327EC201D5F2CFF004573D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1327EC041D5F2CFF004573D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1327EC0C1D5F2CFF004573D2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1327EC131D5F2CFF004573D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1327EC1C1D5F2CFF004573D2 /* ZenCoachTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1327EC1E1D5F2CFF004573D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1327EC271D5F2CFF004573D2 /* ZenCoachUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1327EC191D5F2CFF004573D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1327EC071D5F2CFF004573D2 /* ZenCoach */;
+			targetProxy = 1327EC181D5F2CFF004573D2 /* PBXContainerItemProxy */;
+		};
+		1327EC241D5F2CFF004573D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1327EC071D5F2CFF004573D2 /* ZenCoach */;
+			targetProxy = 1327EC231D5F2CFF004573D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1327EC0F1D5F2CFF004573D2 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1327EC101D5F2CFF004573D2 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1327EC291D5F2CFF004573D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1327EC2A1D5F2CFF004573D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1327EC2C1D5F2CFF004573D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ZenCoach/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ostera.com.ZenCoach;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1327EC2D1D5F2CFF004573D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ZenCoach/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ostera.com.ZenCoach;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1327EC2F1D5F2CFF004573D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ZenCoachTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ostera.com.ZenCoachTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZenCoach.app/Contents/MacOS/ZenCoach";
+			};
+			name = Debug;
+		};
+		1327EC301D5F2CFF004573D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ZenCoachTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ostera.com.ZenCoachTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZenCoach.app/Contents/MacOS/ZenCoach";
+			};
+			name = Release;
+		};
+		1327EC321D5F2CFF004573D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ZenCoachUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ostera.com.ZenCoachUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZenCoach;
+			};
+			name = Debug;
+		};
+		1327EC331D5F2CFF004573D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ZenCoachUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ostera.com.ZenCoachUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZenCoach;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1327EC031D5F2CFF004573D2 /* Build configuration list for PBXProject "ZenCoach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1327EC291D5F2CFF004573D2 /* Debug */,
+				1327EC2A1D5F2CFF004573D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1327EC2B1D5F2CFF004573D2 /* Build configuration list for PBXNativeTarget "ZenCoach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1327EC2C1D5F2CFF004573D2 /* Debug */,
+				1327EC2D1D5F2CFF004573D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1327EC2E1D5F2CFF004573D2 /* Build configuration list for PBXNativeTarget "ZenCoachTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1327EC2F1D5F2CFF004573D2 /* Debug */,
+				1327EC301D5F2CFF004573D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1327EC311D5F2CFF004573D2 /* Build configuration list for PBXNativeTarget "ZenCoachUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1327EC321D5F2CFF004573D2 /* Debug */,
+				1327EC331D5F2CFF004573D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1327EC001D5F2CFF004573D2 /* Project object */;
+}
