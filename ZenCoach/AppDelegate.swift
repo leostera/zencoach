@@ -7,15 +7,28 @@
 //
 
 import Cocoa
+import IOKit
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
+    
+    var bar = NSStatusBar.systemStatusBar()
+    var item : NSStatusItem = NSStatusItem()
 
-    @IBOutlet weak var window: NSWindow!
-
+    override func awakeFromNib() {
+        self.item = self.bar.statusItemWithLength(-1)
+        self.item.enabled = false
+        self.item.title = "ZenCoach"
+    }
 
     func applicationDidFinishLaunching(aNotification: NSNotification) {
-        // Insert code here to initialize your application
+        NSWorkspace
+            .sharedWorkspace()
+            .notificationCenter
+            .addObserverForName(NSWorkspaceDidActivateApplicationNotification,
+                            object: nil,
+                            queue: NSOperationQueue.mainQueue()
+            ) { x in print(x.userInfo.bundleIdentifier!) }
     }
 
     func applicationWillTerminate(aNotification: NSNotification) {
