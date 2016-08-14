@@ -11,6 +11,7 @@ import Cocoa
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
   
+  
   var bar = NSStatusBar.systemStatusBar()
   var item : NSStatusItem = NSStatusItem()
   var user : String?
@@ -24,13 +25,23 @@ class AppDelegate: NSObject, NSApplicationDelegate {
       userDefaults.synchronize()
     }
     self.user = userDefaults.stringForKey("UUID")
+    
     super.init()
+  }
+  
+  func terminate() {
+    NSApplication.sharedApplication().terminate(self)
   }
   
   override func awakeFromNib() {
     self.item = self.bar.statusItemWithLength(-1)
-    self.item.enabled = false
     self.item.title = "ZenCoach"
+    
+    let menu = NSMenu()
+    let quit = NSMenuItem(title: "Quit", action: #selector(terminate), keyEquivalent: "q")
+    menu.addItem(quit)
+    
+    self.item.menu = menu
   }
   
   func applicationDidFinishLaunching(aNotification: NSNotification) {
