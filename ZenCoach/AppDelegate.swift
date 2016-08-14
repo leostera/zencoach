@@ -41,6 +41,22 @@ class AppDelegate: NSObject, NSApplicationDelegate {
                           object: nil,
                           queue: NSOperationQueue.mainQueue()
       ) { x in self.track(self.user!, data: self.unpackBundleIdentifier(x.userInfo!)!)}
+    
+    NSWorkspace
+      .sharedWorkspace()
+      .notificationCenter
+      .addObserverForName(NSWorkspaceWillSleepNotification,
+                          object: nil,
+                          queue: NSOperationQueue.mainQueue()
+      ) { x in self.track(self.user!, data: "com.apple.Sleep")}
+    
+    NSWorkspace
+      .sharedWorkspace()
+      .notificationCenter
+      .addObserverForName(NSWorkspaceDidWakeNotification,
+                          object: nil,
+                          queue: NSOperationQueue.mainQueue()
+      ) { x in self.track(self.user!, data: "com.apple.Wake")}
   }
   
   func applicationWillTerminate(aNotification: NSNotification) {
